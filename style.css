@@ -1,0 +1,21 @@
+body{
+    height: 200px;
+    background-color:  #baffc9;
+}
+div.opentext{
+    font-style:Bitner;
+    font-size:25px;
+    color:rgb(235, 82, 44);
+    text-align:center;
+}
+.column {
+    margin-left:183px;
+    float: left;
+    padding: 40px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
